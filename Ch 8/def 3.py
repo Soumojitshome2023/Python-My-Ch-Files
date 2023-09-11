@@ -1,7 +1,7 @@
 def abc():
     return "D"
 
-n = abc()      #def ar name ta call korte hobe
+n = abc()      #function call
 print(n)
 #Output:> D
 
@@ -9,12 +9,12 @@ print("Line 1_____________________________________________________")
 def abc():
     print("E")
 
-x = abc()     #def ar name ta call korte hobe
+x = abc()     #function call
 #Output:> E
 
 print("Line 2_____________________________________________________")
 def abc():
     print("F")
 
-abc()       #def ar name ta call korte hobe
+abc()       #function call
 #Output:> F
